@@ -22,5 +22,10 @@ A passionate **Front-End Developer & Cybersecurity Engineer** bridging the gap b
 * Integrating AI models into interactive web interfaces.
 * Continuing to build out secure, privacy-first web applications.
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ahmed-mohamed-sh&show_icons=true&theme=tokyonight&hide_border=true" alt="Ahmed's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmed-mohamed-sh&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+</div>
+
 ### 📫 Let's Connect
 [Email](am6453395@gmail.com)
