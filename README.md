@@ -58,12 +58,12 @@ My current north star is to build and study **trustworthy autonomous systems** t
 ## Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
+- Jun 2, 2026: pushed 1 commit to [wildanniam/academic-faq-agent](https://github.com/wildanniam/academic-faq-agent).
 - May 23, 2026: pushed 1 commit to [wildanniam/portofolio-wildan](https://github.com/wildanniam/portofolio-wildan).
 - May 23, 2026: pushed 1 commit to [wildanniam/academic-faq-agent](https://github.com/wildanniam/academic-faq-agent).
 - May 20, 2026: pushed 1 commit to [wildanniam/wildanniam](https://github.com/wildanniam/wildanniam).
 - May 18, 2026: pushed 1 commit to [wildanniam/portofolio-wildan](https://github.com/wildanniam/portofolio-wildan).
 - May 18, 2026: created a branch in [wildanniam/portofolio-wildan](https://github.com/wildanniam/portofolio-wildan).
-- May 18, 2026: created a branch in [wildanniam/wildanniam](https://github.com/wildanniam/wildanniam).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
