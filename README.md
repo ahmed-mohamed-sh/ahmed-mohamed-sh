@@ -58,12 +58,12 @@ My current north star is to build and study **trustworthy autonomous systems** t
 ## Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
+- Jun 12, 2026: created a branch in [wildanniam/agentic-rag-telu-faq](https://github.com/wildanniam/agentic-rag-telu-faq).
 - Jun 11, 2026: pushed 1 commit to [wildanniam/paygate-stellar](https://github.com/wildanniam/paygate-stellar).
 - Jun 9, 2026: pushed 1 commit to [wildanniam/paygate-stellar](https://github.com/wildanniam/paygate-stellar).
 - Jun 9, 2026: created a branch in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
 - Jun 6, 2026: pushed 1 commit to [wildanniam/paygate-stellar](https://github.com/wildanniam/paygate-stellar).
 - Jun 4, 2026: created a branch in [wildanniam/paygate-stellar](https://github.com/wildanniam/paygate-stellar).
-- Jun 3, 2026: created a branch in [zakinadhif/buildersnetwork](https://github.com/zakinadhif/buildersnetwork).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
