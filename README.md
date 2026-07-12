@@ -58,12 +58,12 @@ My current north star is to build and study **trustworthy autonomous systems** t
 ## Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
-- Jul 11, 2026: merged pull request [#28](https://github.com/wildanniam/Quorum) in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
-- Jul 11, 2026: pushed 1 commit to [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
-- Jul 11, 2026: closed issue [#27](https://github.com/wildanniam/Quorum/issues/27) in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
-- Jul 10, 2026: pushed 1 commit to [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
-- Jul 10, 2026: opened pull request [#28](https://github.com/wildanniam/Quorum) in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
-- Jul 10, 2026: created a branch in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
+- Jul 12, 2026: opened pull request [#30](https://github.com/wildanniam/Quorum) in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
+- Jul 12, 2026: created a branch in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
+- Jul 12, 2026: opened issue [#29](https://github.com/wildanniam/Quorum/issues/29) in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
+- Jul 11, 2026: pushed 1 commit to [wildanniam/portofolio-wildan](https://github.com/wildanniam/portofolio-wildan).
+- Jul 11, 2026: opened pull request [#22](https://github.com/wildanniam/portofolio-wildan) in [wildanniam/portofolio-wildan](https://github.com/wildanniam/portofolio-wildan).
+- Jul 11, 2026: created a branch in [wildanniam/portofolio-wildan](https://github.com/wildanniam/portofolio-wildan).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
