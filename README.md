@@ -1,9 +1,9 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-mobile-dark.svg">
-    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-light.svg">
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v2-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v2-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v2-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v2-light.svg">
     <img src="./assets/header.png" alt="Wildan Syukri Niam - AI Researcher and Web3 Builder" width="100%">
   </picture>
 </p>
