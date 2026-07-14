@@ -38,7 +38,6 @@ const profileLines = [
   { type: "blank" },
   { type: "section", value: "GRID.LINKS" },
   { type: "row", key: "GitHub", value: "@wildanniam" },
-  { type: "row", key: "Portfolio", value: "portofolio-wildan-zeta.vercel.app" },
   { type: "footer", value: "signal.locked > AI / WEB3 / AGENTS" }
 ];
 
@@ -359,10 +358,10 @@ async function main() {
 
   await mkdir(outputDirectory, { recursive: true });
   await Promise.all([
-    writeFile(resolve(outputDirectory, "agent-console-v4-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v4-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v4-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v4-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
+    writeFile(resolve(outputDirectory, "agent-console-v5-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v5-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v5-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v5-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
   ]);
 
   console.log(`Generated refined hero assets from ${basename(sourcePath)}.`);
