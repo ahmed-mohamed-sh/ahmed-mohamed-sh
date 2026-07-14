@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="920" viewBox="0 0 720 920" role="img" aria-labelledby="title description">
+<title id="title">Wildan Syukri Niam - AI Researcher and Web3 Builder</title>
+<desc id="description">A compact animated agent intelligence console with an ASCII portrait and research profile.</desc>
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050816"/><stop offset="1" stop-color="#130A2C"/></linearGradient>
+  <linearGradient id="signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#7C3AED;#38BDF8;#22D3EE" dur="10s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#38BDF8;#22D3EE;#7C3AED" dur="10s" repeatCount="indefinite"/></stop></linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C3AED"/><stop offset="0.48" stop-color="#22D3EE"/><stop offset="1" stop-color="#10B981"/></linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.42"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></linearGradient>
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#22D3EE" opacity="0.05"/></pattern>
+  <clipPath id="portrait-clip"><rect x="48" y="122" width="624" height="322" rx="16"/></clipPath>
+  <mask id="portrait-reveal"><rect x="48" y="122" width="624" height="0" rx="16" fill="white"><animate attributeName="height" from="0" to="322" dur="2.2s" begin="0.15s" fill="freeze"/></rect></mask>
+  <clipPath id="system-row-0"><rect x="68" y="504" width="0" height="26"><animate attributeName="width" from="0" to="574" dur="0.42s" begin="0.72s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-row-1"><rect x="68" y="551" width="0" height="26"><animate attributeName="width" from="0" to="574" dur="0.42s" begin="0.89s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-row-2"><rect x="68" y="598" width="0" height="26"><animate attributeName="width" from="0" to="574" dur="0.42s" begin="1.06s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-row-3"><rect x="68" y="645" width="0" height="26"><animate attributeName="width" from="0" to="574" dur="0.42s" begin="1.23s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-row-4"><rect x="68" y="692" width="0" height="26"><animate attributeName="width" from="0" to="574" dur="0.42s" begin="1.40s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-row-5"><rect x="68" y="739" width="0" height="26"><animate attributeName="width" from="0" to="574" dur="0.42s" begin="1.57s" fill="freeze"/></rect></clipPath>
+<clipPath id="system-row-6"><rect x="68" y="786" width="0" height="26"><animate attributeName="width" from="0" to="574" dur="0.42s" begin="1.74s" fill="freeze"/></rect></clipPath>
+  <style>
+    .terminal { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .ascii { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 8.4px; letter-spacing: -0.2px; fill: url(#signal); }
+    .panel-title { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 1.7px; fill: #38BDF8; opacity: 0.82; }
+    .terminal-label { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; fill: #64748B; }
+    .system-row { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; }
+    .system-label { fill: #22D3EE; font-weight: 700; }
+    .system-dots { fill: #64748B; }
+    .system-value { fill: #E5E7EB; }
+  </style>
+</defs>
+<rect width="720" height="920" rx="24" fill="url(#background)"/>
+<rect width="720" height="920" rx="24" fill="url(#scanlines)"/>
+<rect x="20" y="20" width="680" height="42" rx="14" fill="#0B1120" fill-opacity="0.78" stroke="url(#border)" stroke-opacity="0.35"/>
+<circle cx="42" cy="41" r="5" fill="#EF4444"/><circle cx="60" cy="41" r="5" fill="#F59E0B"/><circle cx="78" cy="41" r="5" fill="#10B981"/>
+<text x="360" y="46" text-anchor="middle" class="terminal-label">wildan@agentlab:~$ ./profile --live</text>
+<rect x="48" y="96" width="624" height="356" rx="16" fill="#0B1120" fill-opacity="0.58" stroke="url(#border)" stroke-opacity="0.42"/>
+<text x="64" y="116" class="panel-title">AGENT.MESH / PORTRAIT.SIGNAL</text>
+<g opacity="0.24" fill="none" stroke="#38BDF8" stroke-width="1.2"><path d="M94 222 L208 168 L358 242 L502 176 L626 236"/><path d="M122 370 L262 312 L404 374 L578 304"/></g>
+<g fill="#22D3EE"><circle cx="94" cy="222" r="3"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" repeatCount="indefinite"/></circle><circle cx="358" cy="242" r="3"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" begin="1.1s" repeatCount="indefinite"/></circle><circle cx="626" cy="236" r="3"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" begin="2.2s" repeatCount="indefinite"/></circle></g>
+<g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii" fill="#22D3EE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8.4px" letter-spacing="-0.2px"><tspan x="70" y="130.00" xml:space="preserve">h#BSM323G#B@@@@@@@@@@H2@@@@@@@@@@@@@@@@@@@@@@@@@@@h    &amp;@@@9HS@@@G    </tspan>
+<tspan x="70" y="134.35" xml:space="preserve">            @@@@@@@@@h5@@@@@@@@@@@@@@@@@@@@@@@@@@@3    &amp;@@&amp;h25&amp;@@#    </tspan>
+<tspan x="70" y="138.70" xml:space="preserve">            S@@@@@@@@2A@@@@@@@@@@@@@B@@@@@@@@@@@@@h AG5&amp;@@@@9#@@@9    </tspan>
+<tspan x="70" y="143.05" xml:space="preserve">            H@@@@@@@@ X@@@@@@@@@@@@@#@@@@@@@@@@@@@5  X &amp;@@@@@@@@B     </tspan>
+<tspan x="70" y="147.40" xml:space="preserve">            G@@@@@@@@ A@@@@@@@@@@@@@B&amp;&amp;@@@@@@@@@@@s    &amp;@@@@@@@@9     </tspan>
+<tspan x="70" y="151.75" xml:space="preserve">            h@@@@@@@@sA&amp;BB@@@@@@@@@@&amp;&amp;@@@@@@@@@@@&amp;;    &amp;@@@@@@@@@#3   </tspan>
+<tspan x="70" y="156.10" xml:space="preserve">            #@@@@@@@@2XSS##B@@@@@@@@@@@@@@@@@@@@@9:i,  9@@#G@@@@@9G   </tspan>
+<tspan x="70" y="160.45" xml:space="preserve">AX          S@@@@@@@@XsHG#9&amp;@@@@@@@@@@@@@@@@@@@GXMii   5S#h3@@@@@B9   </tspan>
+<tspan x="70" y="164.80" xml:space="preserve">HM35GG3h333hMHHGS9&amp;@@sX##9&amp;@@@@@@@@@@@@@@@@@@@@r ...   ;SS22hh9@@&amp;&amp;5  </tspan>
+<tspan x="70" y="169.15" xml:space="preserve">B9SG9MHS#B&amp;@@@@@@@@@@A5@&amp;&amp;&amp;@@@@@@@@@@@@@@@@@@@@s:hr,.  i#G2s2G@@@&amp;B3  </tspan>
+<tspan x="70" y="173.50" xml:space="preserve">BB9#&amp;#S9B&amp;&amp;@@@@@@@@@@Mh&amp;&amp;&amp;@@@@@@@@@@@@@@@@@@@@@B@&amp;srAAsr52si2hh3A A   </tspan>
+<tspan x="70" y="177.85" xml:space="preserve">22AA2hAA2535#@@@@@@@@SH&amp;&amp;&amp;@@@@@@@@&amp;#@@@@@@@@@@@@@&amp;i;AHX:B@HM@@@@9AGGA </tspan>
+<tspan x="70" y="182.20" xml:space="preserve">            A@@@@@@@@#S@@@@@@@@@@@@&amp;@@@@@@@@@@@@@@s :s,,G9BB@@@@@3&amp;@M </tspan>
+<tspan x="70" y="186.55" xml:space="preserve">            A@@@@@@@@S#@@@@@@@@@@@@&amp;@@@@@@@@@@@@@@M;i;,s&amp;@#B@@@@@39HG </tspan>
+<tspan x="70" y="190.90" xml:space="preserve">            2@@@@@@@@S9@@@@@@@@@@@@@@@@@@@@@@@@@@@Gr;:.;@@9G@@@@@M999A</tspan>
+<tspan x="70" y="195.25" xml:space="preserve">            3@@@@@@@@B&amp;@@@@@@@@@@@@B@@@@@@@@@@@@93Hhr;,;B@BS@@@@@#@#@h</tspan>
+<tspan x="70" y="199.60" xml:space="preserve">            sS#9B&amp;@@B#B@@@@@@@@&amp;@@&amp;9@@@@@@@@@@@@9hGGXi:iS@GhS@@@@#@9@S</tspan>
+<tspan x="70" y="203.95" xml:space="preserve">         .::::::;;irrrX253hMHGS#9B#G&amp;@@@@@@@@@@@@@BMAsiAB@5h@@@@@&amp;@@@&amp;</tspan>
+<tspan x="70" y="208.30" xml:space="preserve">       ..,:::::::;;iirrrrrssXXXXXXs,:A253hhMHHGGGGhsi;;r22ir3hMMM53X h</tspan>
+<tspan x="70" y="212.65" xml:space="preserve">       ....,,,::;iirrssssXXXXXXAAs;  rXA2555555555X. ... ......,,:    </tspan>
+<tspan x="70" y="217.00" xml:space="preserve">       ....,,,,:;;iirrsssXXXXXXXsi.  ,sA2225553333A:,::::::::::::,    </tspan>
+<tspan x="70" y="221.35" xml:space="preserve">     .....,,,,::;;iirrsssssXXXssr.    iA2225555555X,,,,::::::::::   , </tspan>
+<tspan x="70" y="225.70" xml:space="preserve">     ,,,,,,,:::;;iirrsrsX2HH3h5h5AXX; .X2555555555A,,,,:::::::::.  ,, </tspan>
+<tspan x="70" y="230.05" xml:space="preserve">    ,..,:::::::;::;iir5H#3H9@@@@@@@@9M22MMh2255553A::::::::::::,  .::,</tspan>
+<tspan x="70" y="234.40" xml:space="preserve">9M3hMSShXsXXXXAA53533HMB@@@@@@@@@@@5@GHBGGSMXXh555X:,,:::::::;:   ;;:,</tspan>
+<tspan x="70" y="238.75" xml:space="preserve">@X  s@@5..,,,:;;M@@@Grs@@@@@@@@@Bhsh3225Ahh35rM9MHH2AAXsssssXAX:;sssss</tspan>
+<tspan x="70" y="243.10" xml:space="preserve">@G33H@@h:::,,,,,h@@@i r#H@@@@@9X...S&amp;#&amp;AiAA25hA#@@M553&amp;@@@@@@GHMMS@@SH</tspan>
+<tspan x="70" y="247.45" xml:space="preserve">sA2553332XX22555S&amp;&amp;@@S@@@@@&amp;hX....,9@@@&amp;55hGS&amp;#H#@2   H@@@@@&amp;i::,A@@h3</tspan>
+<tspan x="70" y="251.80" xml:space="preserve">   ::;;:,  .sXXXXXX2M3@@@@M;:......G@@@@@9&amp;@@@@&amp;&amp;@@#H#@@@@@@@#S##B@@SG</tspan>
+<tspan x="70" y="256.15" xml:space="preserve">   :;:,     .rrsXXXA25@@@A  .......3@@@@@@@@@@@@@@@@GXXAAAXr.:XXXXXXAA</tspan>
+<tspan x="70" y="260.50" xml:space="preserve">  ::,   .;,  .rsXXXAA2&amp;@Gs;.i3GHX,.A@@@@@@@@@@@@@@@@@AsAXs;  .;;;;;;;;</tspan>
+<tspan x="70" y="264.85" xml:space="preserve">  ,    :rr;.  ,rsXXXXXH&amp;9&amp;3AH&amp;9h555H9@@@@@@@@@@@@@@@@GsXsi.  :;;;;;;;:</tspan>
+<tspan x="70" y="269.20" xml:space="preserve">     .irrri;.  ,rsXXXX23H9GAHB&amp;S#&amp;99#B@@@@@@@@@@@@@@@@Xri,  ,:;;;;;:::</tspan>
+<tspan x="70" y="273.55" xml:space="preserve">    ;rrrrssr;.  :sXXAAXB@HX.2S@B#B#5Xh&amp;@@@@@@@@@@@@@@@h;:  ,:::::::::,</tspan>
+<tspan x="70" y="277.90" xml:space="preserve">  ,;iiiirrrri;.  ;XAA2XAs...,rAAr:.,iXMB@@@@@@@@@@@@@@9:  .:;;;;;;:::,</tspan>
+<tspan x="70" y="282.25" xml:space="preserve">  ;;:;;;iiiii;:.  ;sXs,ii..........:iX3S@@@@@@@@@@@@@@B.  :;;;;;;:::::</tspan>
+<tspan x="70" y="286.60" xml:space="preserve">  :::;;iiiiiii;:   ;s;i9@@M2:....,:isA5M@@@@@@@@@@@@@@H  ,::::::,,,,,,</tspan>
+<tspan x="70" y="290.95" xml:space="preserve">  :::;;iiiirrri;:   iriAG#Bh,,:;;iis25hM@@@@@@@@@@@@@@; .:::::::::,,,,</tspan>
+<tspan x="70" y="295.30" xml:space="preserve">  ::;;;iiiirrrrri:  .sXhH5i..;AAAAAA3MHG@@G#@@@BB@@@@# .;;;;;;::::,,,,</tspan>
+<tspan x="70" y="299.65" xml:space="preserve">  ::;;;iiirrrsssri:  sH#9@&amp;Gss23333hMMG9@9ShMhHM9@@@@r :;;;;;;;::::,,,</tspan>
+<tspan x="70" y="304.00" xml:space="preserve">  ::;;;iiirrrsssssi: r3GGHHGM33hHHHSGGSB&amp;B@B5A3&amp;@@@@5 :;;;;;;;;;::::,,</tspan>
+<tspan x="70" y="308.35" xml:space="preserve">  ::;;;iiirrrssssssi,;Ahh5Xi5HHGSS#999B&amp;@@@@@@@@@@@H ,;iiiiii;;;;;::::</tspan>
+<tspan x="70" y="312.70" xml:space="preserve">   ::;;iiirrsssXXXXsr;:sssA2MS999B&amp;&amp;@@@@@@@@@@@@@@3 .iiiiiiiii;;;;;:;;</tspan>
+<tspan x="70" y="317.05" xml:space="preserve">hhMHHGGGGGGGGSGGGSSSSMhGHHG#&amp;@@@@@@@@@@@@@@@@@@@@Bi:rsssssrrrrriiiiii;</tspan>
+<tspan x="70" y="321.40" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;GHXrrrrriii;;:::::::,</tspan>
+<tspan x="70" y="325.75" xml:space="preserve">@@@@@@@@@@@@@@@9S9@@@#S&amp;@@@@@@@@@@@@@@@@@@@@@@@&amp;HGHsiiii;;;;, ......  </tspan>
+<tspan x="70" y="330.10" xml:space="preserve">@@&amp;&amp;@@@@@@@@@@#s:sH@@5AhB@@@@@@@@@@@@@@@@@@&amp;@BGHGGHsiiri;;;;,.ssssssXi</tspan>
+<tspan x="70" y="334.45" xml:space="preserve">@&amp;B&amp;&amp;@@@@@@@@B#5X55S@#GS&amp;&amp;G@@@@@@@@@@@@@@@B&amp;@@HHHGMXirriii;;,.ii;iiirr</tspan>
+<tspan x="70" y="338.80" xml:space="preserve">B9B&amp;@@@@@@&amp;&amp;&amp;&amp;B9B&amp;&amp;&amp;@@@#@@h#@@@@@@@@@@@&amp;@&amp;B@@@&amp;MHHMsirriiii;, ........</tspan>
+<tspan x="70" y="343.15" xml:space="preserve">9&amp;@@@@@@@99BB&amp;&amp;&amp;&amp;&amp;B99G2B@BM#9&amp;&amp;@@@@@&amp;&amp;&amp;&amp;&amp;&amp;@@@@@9MHHXssrrriii:         </tspan>
+<tspan x="70" y="347.50" xml:space="preserve">&amp;@@@@@@@9####GHh5XsX:.A@@@3GB&amp;@@@@&amp;&amp;BBBB@@@@@@@@9HMXrrrriiii:    ,,   </tspan>
+<tspan x="70" y="351.85" xml:space="preserve">&amp;9B@&amp;#M2Xsri;:,..i2;::9&amp;@@GMS#B@&amp;B99#9B@@@@@@@@@@@Hs;iiiiiii:    .,   </tspan>
+<tspan x="70" y="356.20" xml:space="preserve">3  3    ....,,,:25r;,X@h@@@G###9SSS##B@@@@@@@@@@@@@#M5siiiii:         </tspan>
+<tspan x="70" y="360.55" xml:space="preserve">MXs    ,::::;:;3r,:,;G@r@@@&amp;#BB99BB&amp;@@@@@@@@@@@@@@@@@@93riii:         </tspan>
+<tspan x="70" y="364.90" xml:space="preserve">  s     iiii:X#s.,,;sBM,@@@@@@B9B&amp;&amp;@@@@@@@@@@@@@@@@@@@@A:;iri         </tspan>
+<tspan x="70" y="369.25" xml:space="preserve"> 2AXXs   sr;3@9Mi:;A3&amp;::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@B;,,::;;;:,     </tspan>
+<tspan x="70" y="373.60" xml:space="preserve"> BM22AXA2A3S@3;sM2Xh@3 r@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@A.,,,::::;;  s  </tspan>
+<tspan x="70" y="377.95" xml:space="preserve">3@9HhMHH39@@2;s2532M@r X@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@h.,::,,:::    22</tspan>
+<tspan x="70" y="382.30" xml:space="preserve">&amp;@@B##9h9&amp;&amp;GMGM5AAA2Bi r@@@@@@@@@@@@@@@S3A&amp;@@@@@@@@@S5#2,,;;:::     2 </tspan>
+<tspan x="70" y="386.65" xml:space="preserve">@@&amp;B&amp;95#&amp;&amp;BMhAAA22AA&amp;X ,@@@@@@@@@@@@@@G5,,@@@@@@@BB@3,r9M5;iii     AM2</tspan></text></g>
+<rect x="48" y="474" width="624" height="372" rx="16" fill="#0B1120" fill-opacity="0.58" stroke="url(#border)" stroke-opacity="0.42"/>
+<text x="66" y="496" class="panel-title">SYSTEM.INTEL</text>
+<g clip-path="url(#system-row-0)"><text x="72" y="518" class="system-row"><tspan class="system-label" fill="#22D3EE">Subject</tspan><tspan class="system-dots" fill="#64748B">....... </tspan><tspan class="system-value" fill="#E5E7EB">Wildan Syukri Niam</tspan></text></g>
+<g clip-path="url(#system-row-1)"><text x="72" y="565" class="system-row"><tspan class="system-label" fill="#22D3EE">Role</tspan><tspan class="system-dots" fill="#64748B">.......... </tspan><tspan class="system-value" fill="#E5E7EB">AI Researcher &amp; Web3 Builder</tspan></text></g>
+<g clip-path="url(#system-row-2)"><text x="72" y="612" class="system-row"><tspan class="system-label" fill="#22D3EE">Affiliation</tspan><tspan class="system-dots" fill="#64748B">... </tspan><tspan class="system-value" fill="#E5E7EB">Telkom University / Bandung, Indonesia</tspan></text></g>
+<g clip-path="url(#system-row-3)"><text x="72" y="659" class="system-row"><tspan class="system-label" fill="#22D3EE">Research</tspan><tspan class="system-dots" fill="#64748B">...... </tspan><tspan class="system-value" fill="#E5E7EB">AI Agents &amp; Trustworthy Autonomous Systems</tspan></text></g>
+<g clip-path="url(#system-row-4)"><text x="72" y="706" class="system-row"><tspan class="system-label" fill="#22D3EE">Focus</tspan><tspan class="system-dots" fill="#64748B">......... </tspan><tspan class="system-value" fill="#E5E7EB">Web3 Trust / On-chain Intelligence</tspan></text></g>
+<g clip-path="url(#system-row-5)"><text x="72" y="753" class="system-row"><tspan class="system-label" fill="#22D3EE">Building</tspan><tspan class="system-dots" fill="#64748B">...... </tspan><tspan class="system-value" fill="#E5E7EB">PayGate / Fradium / NovaAI / Quorum</tspan></text></g>
+<g clip-path="url(#system-row-6)"><text x="72" y="800" class="system-row"><tspan class="system-label" fill="#22D3EE">Status</tspan><tspan class="system-dots" fill="#64748B">........ </tspan><tspan class="system-value" fill="#E5E7EB">Researching / Building / Shipping</tspan></text></g>
+<text x="360" y="884" text-anchor="middle" class="terminal" font-size="11" letter-spacing="1.3" fill="#64748B">AI AGENTS / WEB3 TRUST / AUTONOMOUS SOFTWARE</text>
+<rect x="0" y="-80" width="720" height="86" fill="url(#scan)" opacity="0.72" style="mix-blend-mode:screen"><animateTransform attributeName="transform" type="translate" from="0 -80" to="0 1000" dur="5.6s" repeatCount="indefinite"/></rect>
+<rect x="3" y="3" width="714" height="914" rx="21" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.68"><animate attributeName="opacity" values="0.42;0.9;0.42" dur="4s" repeatCount="indefinite"/></rect>
+</svg>
