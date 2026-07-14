@@ -11,10 +11,10 @@ const scriptDirectory = fileURLToPath(new URL(".", import.meta.url));
 const outputDirectory = resolve(scriptDirectory, "../assets/hero");
 
 const portraitFilter = [
-  "crop=1050:1050:1050:1850",
+  "crop=1700:1900:800:1950",
   "format=gray",
-  "eq=contrast=1.28:brightness=0.025:gamma=0.94",
-  "unsharp=3:3:0.45"
+  "eq=contrast=1.18:brightness=0.04:gamma=0.96",
+  "unsharp=3:3:0.35"
 ].join(",");
 
 const profileLines = [
@@ -81,7 +81,7 @@ const layouts = {
     infoPanel: { x: 508, y: 48, width: 655, height: 500, radius: 14 },
     visualTitle: { x: 30, y: 62 },
     infoTitle: { x: 524, y: 62 },
-    portrait: { columns: 88, rows: 54, x: 64, y: 102, lineHeight: 7.55, fontSize: 7.4 },
+    portrait: { columns: 96, rows: 64, x: 78, y: 90, lineHeight: 6.65, fontSize: 6.5 },
     portraitClip: { x: 24, y: 82, width: 470, height: 438, radius: 12 },
     system: { x: 528, y: 82, width: 620, lineHeight: 21.5, fontSize: 14 },
     footerY: 585
@@ -95,7 +95,7 @@ const layouts = {
     infoPanel: { x: 48, y: 470, width: 624, height: 526, radius: 14 },
     visualTitle: { x: 66, y: 116 },
     infoTitle: { x: 66, y: 492 },
-    portrait: { columns: 88, rows: 44, x: 154, y: 132, lineHeight: 7.05, fontSize: 8.1 },
+    portrait: { columns: 84, rows: 54, x: 180, y: 132, lineHeight: 5.7, fontSize: 6.6 },
     portraitClip: { x: 58, y: 122, width: 604, height: 312, radius: 12 },
     system: { x: 72, y: 520, width: 574, lineHeight: 21, fontSize: 13 },
     footerY: 1045
@@ -161,8 +161,10 @@ async function samplePortrait(sourcePath, columns, rows) {
     "ffmpeg",
     [
       "-v", "error",
+      "-f", "lavfi",
+      "-i", "color=c=white:s=3072x4096",
       "-i", sourcePath,
-      "-vf", `${portraitFilter},scale=${columns}:${rows}`,
+      "-filter_complex", `[0:v][1:v]overlay=shortest=1:format=auto,${portraitFilter},scale=${columns}:${rows}`,
       "-frames:v", "1",
       "-f", "image2pipe",
       "-vcodec", "pgm",
@@ -194,14 +196,15 @@ function createAsciiTspans({ pixels, width, height }, placement) {
     let line = "";
 
     for (let column = 0; column < width; column += 1) {
-      const pixel = pixels[row * width + column];
-      const x = column / Math.max(width - 1, 1);
-      const y = row / Math.max(height - 1, 1);
-      const head = Math.exp(-2.2 * (((x - 0.57) ** 2) / 0.09 + ((y - 0.45) ** 2) / 0.15));
-      const torso = Math.exp(-1.55 * (((x - 0.52) ** 2) / 0.34 + ((y - 0.94) ** 2) / 0.2));
-      const subjectWeight = clamp(Math.max(head, torso), 0, 1);
+      const index = row * width + column;
+      const pixel = pixels[index];
+      const left = pixels[row * width + Math.max(column - 1, 0)];
+      const right = pixels[row * width + Math.min(column + 1, width - 1)];
+      const above = pixels[Math.max(row - 1, 0) * width + column];
+      const below = pixels[Math.min(row + 1, height - 1) * width + column];
       const darkness = (255 - pixel) / 255;
-      const ink = clamp(darkness * (0.13 + subjectWeight * 1.02), 0, 1);
+      const edge = (Math.abs(right - left) + Math.abs(below - above)) / 510;
+      const ink = clamp(darkness * 1.02 + edge * 0.5 - 0.025, 0, 1);
       const characterIndex = Math.round(ink * (characters.length - 1));
       line += characters[characterIndex];
     }
@@ -319,10 +322,10 @@ async function main() {
 
   await mkdir(outputDirectory, { recursive: true });
   await Promise.all([
-    writeFile(resolve(outputDirectory, "agent-console-v2-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v2-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v2-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v2-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
+    writeFile(resolve(outputDirectory, "agent-console-v3-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v3-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v3-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v3-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
   ]);
 
   console.log(`Generated refined hero assets from ${basename(sourcePath)}.`);

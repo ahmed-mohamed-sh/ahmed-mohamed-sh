@@ -16,7 +16,7 @@ GitHub proxies README images and may keep an older SVG when its URL is reused. W
 
 - Desktop assets use a compact `1180x610` console layout with a visual map and a structured system information panel.
 - Mobile assets stack the portrait and information panels so the text remains legible instead of shrinking the desktop composition.
-- The portrait uses a head-and-shoulders crop, a ten-character luminance ramp, and soft subject weighting to keep the face recognizable while reducing background noise.
+- The portrait source is a transparent PNG. The generator composites it onto white only during sampling, preserves the subject from head through torso, and converts the real silhouette with a ten-character luminance ramp plus restrained edge weighting for facial and clothing detail.
 - System information is grouped into identity, research direction, active builds, and profile links.
 
 ## Portrait privacy
@@ -25,4 +25,4 @@ Do not commit the original source portrait. The public repository should contain
 
 ## Content source
 
-The profile fields and portrait crop are intentionally maintained in `scripts/generate-agent-hero.mjs`. Keep them concise and evidence-based. The crop is tuned for the current source portrait and should be reviewed when the source image changes. The hero is a stable identity card; activity and changing project detail remain in the README sections below it.
+The profile fields and portrait crop are intentionally maintained in `scripts/generate-agent-hero.mjs`. Keep them concise and evidence-based. The crop is tuned for a `3072x4096` transparent source portrait and should be reviewed when the source image changes. The hero is a stable identity card; activity and changing project detail remain in the README sections below it.
