@@ -17,6 +17,7 @@ GitHub proxies README images and may keep an older SVG when its URL is reused. W
 - Desktop assets use a compact `1180x610` console layout with a visual map and a structured system information panel.
 - Mobile assets stack the portrait and information panels so the text remains legible instead of shrinking the desktop composition.
 - The portrait source is a transparent PNG. The generator composites it onto white only during sampling, preserves the subject from head through torso, and converts the real silhouette with a ten-character luminance ramp plus restrained edge weighting for facial and clothing detail.
+- The portrait panel uses a low-opacity ambient network layer with a sparse grid, large orbital paths, edge nodes, and a soft halo. These elements remain behind the ASCII silhouette and avoid high-frequency detail so the subject stays dominant.
 - System information is grouped into identity, research direction, active builds, and profile links.
 
 ## Portrait privacy
