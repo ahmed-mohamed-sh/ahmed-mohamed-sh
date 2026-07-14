@@ -10,6 +10,8 @@ node scripts/generate-agent-hero.mjs --source /absolute/path/to/portrait.jpg
 
 The script produces desktop and mobile SVG assets for GitHub dark and light themes. The existing `assets/header.png` remains the stable PNG fallback in the README.
 
+GitHub proxies README images and may keep an older SVG when its URL is reused. When publishing a visual revision, increment the filename version in both the generator and README sources instead of overwriting an already published path.
+
 ## Visual system
 
 - Desktop assets use a compact `1180x610` console layout with a visual map and a structured system information panel.

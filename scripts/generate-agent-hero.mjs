@@ -319,10 +319,10 @@ async function main() {
 
   await mkdir(outputDirectory, { recursive: true });
   await Promise.all([
-    writeFile(resolve(outputDirectory, "agent-console-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
+    writeFile(resolve(outputDirectory, "agent-console-v2-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v2-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v2-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v2-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
   ]);
 
   console.log(`Generated refined hero assets from ${basename(sourcePath)}.`);
