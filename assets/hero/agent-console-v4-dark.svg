@@ -6,7 +6,9 @@
   <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#7C3AED;#38BDF8;#22D3EE" dur="9s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#38BDF8;#22D3EE;#7C3AED" dur="9s" repeatCount="indefinite"/></stop></linearGradient>
   <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C3AED"/><stop offset="0.48" stop-color="#22D3EE"/><stop offset="1" stop-color="#10B981"/></linearGradient>
   <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.46"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></linearGradient>
+  <radialGradient id="portrait-halo"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.12"/><stop offset="0.48" stop-color="#38BDF8" stop-opacity="0.055"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
   <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#22D3EE" opacity="0.052"/></pattern>
+  <pattern id="portrait-grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 H 0 V 44" fill="none" stroke="#38BDF8" stroke-width="0.65" opacity="0.085"/><circle cx="0" cy="0" r="1.2" fill="#22D3EE" opacity="0.13"/></pattern>
   <clipPath id="portrait-clip"><rect x="24" y="82" width="470" height="438" rx="12"/></clipPath>
   <mask id="portrait-reveal"><rect x="24" y="82" width="470" height="0" rx="12" fill="white"><animate attributeName="height" from="0" to="438" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
   <clipPath id="system-line-0"><rect x="525" y="66.00" width="0" height="22"><animate attributeName="width" from="0" to="620" dur="0.36s" begin="0.68s" fill="freeze"/></rect></clipPath>
@@ -52,6 +54,25 @@
 <rect x="508" y="48" width="655" height="500" rx="14" fill="#07111F" fill-opacity="0.42" stroke="url(#border)" stroke-opacity="0.42"/>
 <text x="30" y="62" class="panel-title">VISUAL.MAP / PORTRAIT.SIGNAL</text>
 <text x="524" y="62" class="panel-title">SYSTEM.INFO / RESEARCH.BUILDER</text>
+<g clip-path="url(#portrait-clip)" class="ambient-map" aria-hidden="true">
+  <rect x="24" y="82" width="470" height="438" fill="url(#portrait-grid)"/>
+  <ellipse cx="268.4" cy="292.2" rx="228.4" ry="137.2" fill="url(#portrait-halo)"/>
+  <ellipse cx="268.4" cy="292.2" rx="211.5" ry="127.0" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3 14" opacity="0.13">
+    <animateTransform attributeName="transform" type="rotate" from="0 268.4 292.2" to="360 268.4 292.2" dur="42s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="268.4" cy="292.2" rx="169.2" ry="96.5" fill="none" stroke="#7C3AED" stroke-width="1" stroke-dasharray="28 24" opacity="0.1">
+    <animateTransform attributeName="transform" type="rotate" from="360 268.4 292.2" to="0 268.4 292.2" dur="34s" repeatCount="indefinite"/>
+  </ellipse>
+  <path d="M 52 128 H 94 M 52 128 V 170 M 466 478 H 424 M 466 478 V 436" fill="none" stroke="#22D3EE" stroke-width="1.2" opacity="0.2"/>
+  <path d="M 52 334.2 C 84.0 300.2, 141.5 350.2, 188.0 319.2" fill="none" stroke="#38BDF8" stroke-width="1" opacity="0.12"/>
+  <path d="M 466 240.2 C 428.0 274.2, 399.5 222.2, 353.0 262.2" fill="none" stroke="#10B981" stroke-width="1" opacity="0.11"/>
+  <g fill="#22D3EE">
+    <circle cx="52" cy="128" r="2.2" opacity="0.42"><animate attributeName="opacity" values="0.2;0.58;0.2" dur="5.6s" repeatCount="indefinite"/></circle>
+    <circle cx="466" cy="478" r="2.2" opacity="0.42"><animate attributeName="opacity" values="0.58;0.2;0.58" dur="6.4s" repeatCount="indefinite"/></circle>
+    <circle cx="64" cy="340.2" r="1.7" opacity="0.32"/>
+    <circle cx="456" cy="234.2" r="1.7" opacity="0.28"/>
+  </g>
+</g>
 <g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii" fill="#22D3EE" font-family="'Courier New', Consolas, monospace" font-size="6.5px" letter-spacing="-0.15px"><tspan x="78" y="90.00" xml:space="preserve">                                                                                                </tspan>
 <tspan x="78" y="96.65" xml:space="preserve">                                                                                                </tspan>
 <tspan x="78" y="103.30" xml:space="preserve">                                          .........                                             </tspan>

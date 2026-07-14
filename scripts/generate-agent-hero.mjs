@@ -102,6 +102,39 @@ const layouts = {
   }
 };
 
+function buildAmbientPortraitLayer(layout, colors, size) {
+  const clip = layout.portraitClip;
+  const isDesktop = size === "desktop";
+  const centerX = clip.x + clip.width * (isDesktop ? 0.52 : 0.5);
+  const centerY = clip.y + clip.height * (isDesktop ? 0.48 : 0.43);
+  const orbitWidth = clip.width * (isDesktop ? 0.9 : 0.82);
+  const orbitHeight = clip.height * (isDesktop ? 0.58 : 0.62);
+  const left = clip.x + (isDesktop ? 28 : 34);
+  const right = clip.x + clip.width - (isDesktop ? 28 : 34);
+  const top = clip.y + (isDesktop ? 46 : 38);
+  const bottom = clip.y + clip.height - (isDesktop ? 42 : 30);
+
+  return `<g clip-path="url(#portrait-clip)" class="ambient-map" aria-hidden="true">
+  <rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="${clip.height}" fill="url(#portrait-grid)"/>
+  <ellipse cx="${centerX.toFixed(1)}" cy="${centerY.toFixed(1)}" rx="${(orbitWidth * 0.54).toFixed(1)}" ry="${(orbitHeight * 0.54).toFixed(1)}" fill="url(#portrait-halo)"/>
+  <ellipse cx="${centerX.toFixed(1)}" cy="${centerY.toFixed(1)}" rx="${(orbitWidth * 0.5).toFixed(1)}" ry="${(orbitHeight * 0.5).toFixed(1)}" fill="none" stroke="${colors.blue}" stroke-width="1" stroke-dasharray="3 14" opacity="0.13">
+    <animateTransform attributeName="transform" type="rotate" from="0 ${centerX.toFixed(1)} ${centerY.toFixed(1)}" to="360 ${centerX.toFixed(1)} ${centerY.toFixed(1)}" dur="42s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="${centerX.toFixed(1)}" cy="${centerY.toFixed(1)}" rx="${(orbitWidth * 0.4).toFixed(1)}" ry="${(orbitHeight * 0.38).toFixed(1)}" fill="none" stroke="${colors.violet}" stroke-width="1" stroke-dasharray="28 24" opacity="0.1">
+    <animateTransform attributeName="transform" type="rotate" from="360 ${centerX.toFixed(1)} ${centerY.toFixed(1)}" to="0 ${centerX.toFixed(1)} ${centerY.toFixed(1)}" dur="34s" repeatCount="indefinite"/>
+  </ellipse>
+  <path d="M ${left} ${top} H ${left + (isDesktop ? 42 : 62)} M ${left} ${top} V ${top + (isDesktop ? 42 : 54)} M ${right} ${bottom} H ${right - (isDesktop ? 42 : 62)} M ${right} ${bottom} V ${bottom - (isDesktop ? 42 : 54)}" fill="none" stroke="${colors.cyan}" stroke-width="1.2" opacity="0.2"/>
+  <path d="M ${left} ${(centerY + 42).toFixed(1)} C ${(left + 32).toFixed(1)} ${(centerY + 8).toFixed(1)}, ${(centerX - orbitWidth * 0.3).toFixed(1)} ${(centerY + 58).toFixed(1)}, ${(centerX - orbitWidth * 0.19).toFixed(1)} ${(centerY + 27).toFixed(1)}" fill="none" stroke="${colors.blue}" stroke-width="1" opacity="0.12"/>
+  <path d="M ${right} ${(centerY - 52).toFixed(1)} C ${(right - 38).toFixed(1)} ${(centerY - 18).toFixed(1)}, ${(centerX + orbitWidth * 0.31).toFixed(1)} ${(centerY - 70).toFixed(1)}, ${(centerX + orbitWidth * 0.2).toFixed(1)} ${(centerY - 30).toFixed(1)}" fill="none" stroke="${colors.green}" stroke-width="1" opacity="0.11"/>
+  <g fill="${colors.cyan}">
+    <circle cx="${left}" cy="${top}" r="2.2" opacity="0.42"><animate attributeName="opacity" values="0.2;0.58;0.2" dur="5.6s" repeatCount="indefinite"/></circle>
+    <circle cx="${right}" cy="${bottom}" r="2.2" opacity="0.42"><animate attributeName="opacity" values="0.58;0.2;0.58" dur="6.4s" repeatCount="indefinite"/></circle>
+    <circle cx="${left + (isDesktop ? 12 : 18)}" cy="${(centerY + 48).toFixed(1)}" r="1.7" opacity="0.32"/>
+    <circle cx="${right - (isDesktop ? 10 : 16)}" cy="${(centerY - 58).toFixed(1)}" r="1.7" opacity="0.28"/>
+  </g>
+</g>`;
+}
+
 function getSourcePath() {
   const sourceIndex = process.argv.indexOf("--source");
 
@@ -264,6 +297,7 @@ function createHeroSvg(mode, size, portrait) {
   const info = layout.infoPanel;
   const clip = layout.portraitClip;
   const ascii = createAsciiTspans(portrait, layout.portrait);
+  const ambientPortrait = buildAmbientPortraitLayer(layout, colors, size);
   const system = buildSystemLayer(layout.system, colors);
   const isDesktop = size === "desktop";
   const titleCenter = titlebar.x + titlebar.width / 2;
@@ -278,7 +312,9 @@ function createHeroSvg(mode, size, portrait) {
   <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.cyan}"><animate attributeName="stop-color" values="${colors.cyan};${colors.violet};${colors.blue};${colors.cyan}" dur="9s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="${colors.violet}"><animate attributeName="stop-color" values="${colors.violet};${colors.blue};${colors.cyan};${colors.violet}" dur="9s" repeatCount="indefinite"/></stop></linearGradient>
   <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${colors.violet}"/><stop offset="0.48" stop-color="${colors.cyan}"/><stop offset="1" stop-color="${colors.green}"/></linearGradient>
   <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${colors.cyan}" stop-opacity="0"/><stop offset="0.5" stop-color="${colors.cyan}" stop-opacity="0.46"/><stop offset="1" stop-color="${colors.violet}" stop-opacity="0"/></linearGradient>
+  <radialGradient id="portrait-halo"><stop offset="0" stop-color="${colors.cyan}" stop-opacity="0.12"/><stop offset="0.48" stop-color="${colors.blue}" stop-opacity="0.055"/><stop offset="1" stop-color="${colors.violet}" stop-opacity="0"/></radialGradient>
   <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="${colors.cyan}" opacity="0.052"/></pattern>
+  <pattern id="portrait-grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 H 0 V 44" fill="none" stroke="${colors.blue}" stroke-width="0.65" opacity="0.085"/><circle cx="0" cy="0" r="1.2" fill="${colors.cyan}" opacity="0.13"/></pattern>
   <clipPath id="portrait-clip"><rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="${clip.height}" rx="${clip.radius}"/></clipPath>
   <mask id="portrait-reveal"><rect x="${clip.x}" y="${clip.y}" width="${clip.width}" height="0" rx="${clip.radius}" fill="white"><animate attributeName="height" from="0" to="${clip.height}" dur="2.1s" begin="0.12s" fill="freeze"/></rect></mask>
   ${system.clips}
@@ -306,6 +342,7 @@ ${isDesktop ? `<circle cx="${liveX}" cy="${titlebar.y + titlebar.height / 2}" r=
 <rect x="${info.x}" y="${info.y}" width="${info.width}" height="${info.height}" rx="${info.radius}" fill="${colors.panel}" fill-opacity="0.42" stroke="url(#border)" stroke-opacity="0.42"/>
 <text x="${layout.visualTitle.x}" y="${layout.visualTitle.y}" class="panel-title">VISUAL.MAP / PORTRAIT.SIGNAL</text>
 <text x="${layout.infoTitle.x}" y="${layout.infoTitle.y}" class="panel-title">SYSTEM.INFO / RESEARCH.BUILDER</text>
+${ambientPortrait}
 <g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii" fill="${colors.cyan}" font-family="'Courier New', Consolas, monospace" font-size="${layout.portrait.fontSize}px" letter-spacing="-0.15px">${ascii}</text></g>
 ${system.rows}
 <rect x="${layout.system.x + 2}" y="${cursorY}" width="9" height="${layout.system.fontSize + 2}" fill="${colors.cyan}" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.03;0.06;0.32;0.5;0.68;0.84;1" dur="1.4s" begin="3.3s" repeatCount="indefinite"/></rect>
@@ -322,10 +359,10 @@ async function main() {
 
   await mkdir(outputDirectory, { recursive: true });
   await Promise.all([
-    writeFile(resolve(outputDirectory, "agent-console-v3-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v3-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v3-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v3-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
+    writeFile(resolve(outputDirectory, "agent-console-v4-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v4-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v4-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v4-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
   ]);
 
   console.log(`Generated refined hero assets from ${basename(sourcePath)}.`);
