@@ -63,12 +63,12 @@ My current north star is to build and study **trustworthy autonomous systems** t
 ## Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
-- Jul 15, 2026: opened pull request [#95](https://github.com/wildanniam/Quorum) in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
-- Jul 15, 2026: created a branch in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
-- Jul 15, 2026: pushed 1 commit to [wildanniam/portofolio-wildan](https://github.com/wildanniam/portofolio-wildan).
-- Jul 15, 2026: pushed 1 commit to [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
-- Jul 15, 2026: merged pull request [#94](https://github.com/wildanniam/Quorum) in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
-- Jul 15, 2026: closed issue [#93](https://github.com/wildanniam/Quorum/issues/93) in [wildanniam/Quorum](https://github.com/wildanniam/Quorum).
+- Jul 16, 2026: opened pull request [#8](https://github.com/wildanniam/web-portfolio) in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
+- Jul 16, 2026: pushed 1 commit to [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
+- Jul 16, 2026: created a branch in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
+- Jul 16, 2026: opened issue [#7](https://github.com/wildanniam/web-portfolio/issues/7) in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
+- Jul 16, 2026: opened pull request [#6](https://github.com/wildanniam/web-portfolio) in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
+- Jul 16, 2026: opened issue [#5](https://github.com/wildanniam/web-portfolio/issues/5) in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
 <!-- AUTO:ACTIVITY:END -->
 
 ---
