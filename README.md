@@ -63,8 +63,8 @@ My current north star is to build and study **trustworthy autonomous systems** t
 ## Recent Activity
 
 <!-- AUTO:ACTIVITY:START -->
-- Jul 16, 2026: opened pull request [#8](https://github.com/wildanniam/web-portfolio) in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
 - Jul 16, 2026: pushed 1 commit to [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
+- Jul 16, 2026: opened pull request [#8](https://github.com/wildanniam/web-portfolio) in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
 - Jul 16, 2026: created a branch in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
 - Jul 16, 2026: opened issue [#7](https://github.com/wildanniam/web-portfolio/issues/7) in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
 - Jul 16, 2026: opened pull request [#6](https://github.com/wildanniam/web-portfolio) in [wildanniam/web-portfolio](https://github.com/wildanniam/web-portfolio).
