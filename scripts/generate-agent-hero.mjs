@@ -49,16 +49,18 @@ function buildProfileLines(projects) {
 
 const palettes = {
   dark: {
-    backgroundStart: "#17130F",
-    backgroundEnd: "#2B211A",
-    panel: "#211A16",
-    primary: "#F4EEE6",
-    muted: "#B8A99A",
-    cyan: "#D97745",
-    blue: "#E3A27D",
-    violet: "#C98A67",
-    green: "#91A07F",
-    red: "#D97745",
+    backgroundStart: "#0D1117",
+    backgroundEnd: "#161B22",
+    panel: "#161B22",
+    primary: "#F0F6FC",
+    muted: "#8B949E",
+    cyan: "#58A6FF",
+    blue: "#C9D1D9",
+    violet: "#8B949E",
+    green: "#8B949E",
+    red: "#58A6FF",
+    portraitStart: "#F0F6FC",
+    portraitEnd: "#79C0FF",
     scanBlend: "screen"
   },
   light: {
@@ -72,6 +74,8 @@ const palettes = {
     violet: "#8A6848",
     green: "#56715A",
     red: "#A9431F",
+    portraitStart: "#A9431F",
+    portraitEnd: "#8A6848",
     scanBlend: "multiply"
   }
 };
@@ -299,10 +303,10 @@ function createHeroSvg(mode, size, portrait, profileLines) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${layout.width}" height="${layout.height}" viewBox="0 0 ${layout.width} ${layout.height}" role="img" aria-labelledby="title description">
 <title id="title">Wildan Syukri Niam - Full-Stack Builder</title>
-<desc id="description">A warm editorial profile card with Wildan's ASCII portrait, product focus, and selected work.</desc>
+<desc id="description">A builder profile card with Wildan's high-contrast ASCII portrait, product focus, and selected work.</desc>
 <defs>
   <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.backgroundStart}"/><stop offset="1" stop-color="${colors.backgroundEnd}"/></linearGradient>
-  <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.cyan}"/><stop offset="1" stop-color="${colors.violet}"/></linearGradient>
+  <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.portraitStart}"/><stop offset="1" stop-color="${colors.portraitEnd}"/></linearGradient>
   <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${colors.violet}"/><stop offset="0.48" stop-color="${colors.cyan}"/><stop offset="1" stop-color="${colors.green}"/></linearGradient>
   <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${colors.cyan}" stop-opacity="0"/><stop offset="0.5" stop-color="${colors.cyan}" stop-opacity="0.46"/><stop offset="1" stop-color="${colors.violet}" stop-opacity="0"/></linearGradient>
   <radialGradient id="portrait-halo"><stop offset="0" stop-color="${colors.cyan}" stop-opacity="0.12"/><stop offset="0.48" stop-color="${colors.blue}" stop-opacity="0.055"/><stop offset="1" stop-color="${colors.violet}" stop-opacity="0"/></radialGradient>
@@ -355,10 +359,10 @@ ${system}
 }
 
 const outputs = [
-  { filename: "builder-profile-v1-dark.svg", mode: "dark", size: "desktop" },
-  { filename: "builder-profile-v1-light.svg", mode: "light", size: "desktop" },
-  { filename: "builder-profile-v1-mobile-dark.svg", mode: "dark", size: "mobile" },
-  { filename: "builder-profile-v1-mobile-light.svg", mode: "light", size: "mobile" }
+  { filename: "builder-profile-v2-dark.svg", mode: "dark", size: "desktop" },
+  { filename: "builder-profile-v2-light.svg", mode: "light", size: "desktop" },
+  { filename: "builder-profile-v2-mobile-dark.svg", mode: "dark", size: "mobile" },
+  { filename: "builder-profile-v2-mobile-light.svg", mode: "light", size: "mobile" }
 ];
 
 function normalizeSvg(value) {

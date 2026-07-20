@@ -1,25 +1,29 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-v1-mobile-dark.svg">
-    <source media="(max-width: 760px)" srcset="./assets/hero/builder-profile-v1-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-v1-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/builder-profile-v1-light.svg">
-    <img src="./assets/header.png" alt="Wildan Syukri Niam — full-stack product builder" width="100%">
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-v2-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/builder-profile-v2-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-v2-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/builder-profile-v2-light.svg">
+    <img src="./assets/hero/builder-profile-v2-dark.svg" alt="Wildan Syukri Niam, full-stack product builder" width="100%">
   </picture>
+</p>
+
+<p align="center">
+  <a href="https://wildan-portfolio-six.vercel.app"><strong>View Portfolio</strong></a>
 </p>
 
 ## Hey, I'm Wildan
 
-I'm a **full-stack builder** based in Bandung, Indonesia. I work across **AI agents, Web3, and developer tools**—shaping products, leading teams, and building the software behind them.
+I'm a **full-stack builder** based in Bandung, Indonesia. I work across **AI agents, Web3, and developer tools**, shaping products, leading teams, and building the software behind them.
 
 I enjoy taking projects from an early idea to a working release: defining the product, building the core system, testing the final flow, and often coordinating the team along the way.
 
 ## What I Build
 
-- **Product & full-stack engineering** — from product direction and interface design to backend systems, integrations, deployment, and QA.
-- **AI products** — tool-using agents, purpose-built interfaces, and workflows that keep people in control.
-- **Web3 applications** — wallet intelligence, API payments, smart contracts, and on-chain product flows.
-- **Developer tools** — testing, reliability, and AI-assisted engineering workflows.
+- **Product & full-stack engineering:** from product direction and interface design to backend systems, integrations, deployment, and QA.
+- **AI products:** tool-using agents, purpose-built interfaces, and workflows that keep people in control.
+- **Web3 applications:** wallet intelligence, API payments, smart contracts, and on-chain product flows.
+- **Developer tools:** testing, reliability, and AI-assisted engineering workflows.
 
 ## Selected Work
 
@@ -33,14 +37,14 @@ I enjoy taking projects from an early idea to a working release: defining the pr
 
 ## Selected Highlights
 
-- **Fradium team** — winner of the [WCHL 2025 Global Finale Fully On-Chain Track](https://bse.telkomuniversity.ac.id/tim-fradium-berhasil-meraih-global-finale-winner-fully-on-chain-track-pada-world-computer-hacker-league-2025/).
-- **PayGate** — awarded a [$5,000 Stellar Community Fund Instaward](https://x.com/Indo_Stellar/status/2075550378553421994).
-- **Nova AI team** — 1st notable mention and 1st Social Media Challenge winner at the [SEA Lisk Builder Challenge 3](https://bse.telkomuniversity.ac.id/prestasi-tim-nova-ai-di-south-east-asia-lisk-builder-challenge-3/).
-- **SpecHeal team** — [2nd place at Refactory Hackathon 2026](https://portofolio-wildan-zeta.vercel.app/).
+- **Fradium team:** winner of the [WCHL 2025 Global Finale Fully On-Chain Track](https://bse.telkomuniversity.ac.id/tim-fradium-berhasil-meraih-global-finale-winner-fully-on-chain-track-pada-world-computer-hacker-league-2025/).
+- **PayGate:** awarded a [$5,000 Stellar Community Fund Instaward](https://x.com/Indo_Stellar/status/2075550378553421994).
+- **Nova AI team:** 1st notable mention and 1st Social Media Challenge winner at the [SEA Lisk Builder Challenge 3](https://bse.telkomuniversity.ac.id/prestasi-tim-nova-ai-di-south-east-asia-lisk-builder-challenge-3/).
+- **SpecHeal team:** [2nd place at Refactory Hackathon 2026](https://portofolio-wildan-zeta.vercel.app/).
 
 ## What I'm Exploring
 
-I'm interested in AI agents that can work with real tools, software, and financial systems—not only generate text.
+I'm interested in AI agents that can work with real tools, software, and financial systems, not only generate text.
 
 Research helps me understand the deeper questions. Building prototypes and products is how I test those ideas in practice.
 
