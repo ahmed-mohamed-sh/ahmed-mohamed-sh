@@ -1,8 +1,9 @@
 # Builder Profile Hero
 
 The GitHub profile hero is a responsive SVG identity card built around Wildan's
-builder-first positioning. It keeps the portrait-derived ASCII treatment while
-using the same warm, ember-led direction as the portfolio website.
+builder-first positioning. It keeps the portrait-derived ASCII treatment. Light
+mode uses the warm editorial palette, while dark mode uses GitHub-native graphite
+with a brighter portrait range for clear facial contrast.
 
 ## Generate assets
 
@@ -10,15 +11,15 @@ using the same warm, ember-led direction as the portfolio website.
 node scripts/generate-agent-hero.mjs --source /absolute/path/to/portrait.png
 ```
 
-The source portrait stays local. Only generated SVG assets and the optimized PNG
-fallback belong in the public repository.
+The source portrait stays local. Only generated SVG assets belong in the public
+repository.
 
 The generator produces these cache-versioned files:
 
-- `builder-profile-v1-dark.svg`
-- `builder-profile-v1-light.svg`
-- `builder-profile-v1-mobile-dark.svg`
-- `builder-profile-v1-mobile-light.svg`
+- `builder-profile-v2-dark.svg`
+- `builder-profile-v2-light.svg`
+- `builder-profile-v2-mobile-dark.svg`
+- `builder-profile-v2-mobile-light.svg`
 
 GitHub proxies README images and may cache an existing URL. A material visual
 revision should use a new versioned filename and update all four README sources.
@@ -44,15 +45,15 @@ drifting away from the structured project set.
   `prefers-reduced-motion: no-preference` is active.
 - Desktop and mobile have separate compositions so the information panel remains
   readable instead of shrinking the desktop asset.
-- `assets/header.png` is the optimized 1180×610 light fallback used by README
-  renderers that do not select the SVG sources.
+- The desktop dark SVG is the explicit fallback for README renderers that do not
+  select a responsive source.
 
 ## Validate deterministic output
 
 ```bash
 node --check scripts/generate-agent-hero.mjs
 node scripts/generate-agent-hero.mjs --source /absolute/path/to/portrait.png --check
-xmllint --noout assets/hero/builder-profile-v1-*.svg
+xmllint --noout assets/hero/builder-profile-v2-*.svg
 ```
 
 `--check` regenerates the expected strings in memory and compares all four files
