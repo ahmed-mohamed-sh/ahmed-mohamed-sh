@@ -24,7 +24,7 @@
 ```python
 class Ahmed:
 
-    role = "AI Security Engineer (Building towards it)"
+    role = "Full-Stack & AI Security Engineer (Building towards it)"
     university = "Menoufia National University — CS & Artificial Intelligence"
     location = "Egypt 🇪🇬"
 
