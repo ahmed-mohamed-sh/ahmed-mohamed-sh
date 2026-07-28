@@ -198,6 +198,7 @@ class Ahmed:
 - 🛡️ Fortinet NSE — Security & Networking
 - 🔐 NTI Creativa Cyber Security Track — Penetration Testing & Network Security
 - 🌐 Networking Fundamentals
+- check my Linkedin for more
 
 ---
 
