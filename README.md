@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Ahmed&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=AI%20Security%20Engineer%20%7C%20Full-Stack%20Developer&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Ahmed&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=AI%20Security%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20ML%20Enthusiast&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+where+AI+meets+Security;Full-Stack+%2B+Cybersecurity+%2B+ML;CS+%26+AI+Student+%40+Menoufia+National+University;Always+shipping%2C+always+learning." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+where+AI+meets+Security;Full-Stack+%2B+Cybersecurity+%2B+Machine+Learning;CS+%26+AI+Student+%40+Menoufia+National+University;Always+building%2C+always+learning." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -19,134 +19,195 @@
 
 ---
 
-## ⚡ About Me
+# ⚡ About Me
 
 ```python
 class Ahmed:
-    role       = "Full-stack & AI Security Engineer (in progress)"
-    university = "Menoufia National University — CS & Artificial Intelligence"
-    location   = "Egypt"
-    interests  = ["Web App Penetration Testing", "AI-powered Security Tools",
-                  "Full-Stack Development", "Computer Vision", "Deep Learning"]
 
-    stack      = {
-        "frontend"  : ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-        "backend"   : ["Flask", "FastAPI", "Node.js"],
-        "ml / ai"   : ["LangChain", "Groq", "FAISS", "Stable-Baselines3"],
-        "security"  : ["Burp Suite", "Metasploit", "Kali Linux", "OWASP"],
-        "data"      : ["PostgreSQL", "Prisma", "Power BI", "APScheduler"],
+    role = "AI Security Engineer (Building towards it)"
+    university = "Menoufia National University — CS & Artificial Intelligence"
+    location = "Egypt 🇪🇬"
+
+    interests = [
+        "Web Application Penetration Testing",
+        "AI-powered Security Tools",
+        "Full-Stack Development",
+        "Machine Learning",
+        "Data Science"
+    ]
+
+    stack = {
+
+        "frontend": [
+            "Next.js",
+            "React",
+            "Tailwind CSS",
+            "TypeScript",
+            "Framer Motion"
+        ],
+
+        "backend": [
+            "Node.js",
+            "Express",
+            "FastAPI",
+            "Flask"
+        ],
+
+        "ml / ai": [
+            "LangChain",
+            "Groq",
+            "FAISS",
+            "Stable-Baselines3",
+            "Scikit-learn",
+            "NumPy",
+            "Matplotlib"
+        ],
+
+        "security": [
+            "Burp Suite",
+            "Metasploit",
+            "Kali Linux",
+            "Nmap",
+            "SQLMap",
+            "OWASP Top 10"
+        ],
+
+        "data": [
+            "PostgreSQL",
+            "MongoDB",
+            "Prisma",
+            "Neon",
+            "Power BI",
+            "APScheduler"
+        ]
     }
 
-    currently  = "Building VulnScope — AI-powered web app pentesting platform"
-    workflow   = ["VS Code", "Git", "Homebrew", "Terminal / CLI"]
 
-    def motto(self): return "Ship it. Break it. Secure it."
+    currently = "Building VulnScope — AI-powered web application penetration testing platform"
+
+    motto = "Build. Break. Learn. Secure."
 ```
 
 ---
 
-## 🔭 Flagship Project — VulnScope
+# 🔭 Flagship Project — VulnScope
 
 <div align="center">
 
 > **AI-powered web application penetration testing platform**  
 > Rule-based detection · Exploitation engine · AI chat on reports · Threat intel feeds · PDF report generation
 
-| Stack | Role |
-|-------|------|
-| `Next.js` `FastAPI` `Prisma/Neon` | Full-Stack Architecture |
-| `Groq Llama 3.3 70B` `LangChain` | AI Core |
-| `NextAuth v5` | Auth & Security |
-| `OWASP Top 10` | Detection Engine |
-
 </div>
+
+## Architecture
+
+| Technology | Role |
+|---|---|
+| `Next.js` `FastAPI` `Prisma/Neon` | Full-Stack Architecture |
+| `Groq Llama 3.3 70B` `LangChain` | AI Security Assistant |
+| `NextAuth v5` | Authentication & Security |
+| `OWASP Top 10` | Vulnerability Detection Engine |
+| `YAML Rules Engine` | Rule-Based Scanning System |
+
+### Main Features
+
+- 🔎 Automated vulnerability scanning
+- 🛡️ OWASP Top 10 detection
+- ⚔️ Exploitation engine
+- 🤖 AI chat assistant for reports
+- 📄 PDF security reports
+- 🔄 Scan comparison
+- 📊 Security score calculation
+- 🌐 Threat intelligence integration
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-<div align="center">
-
-**Languages**
+## Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Frontend & Backend**
+
+## Frontend
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+
+## Backend
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
-**AI / ML**
 
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logoColor=white)
+## AI / ML
 
-**Security**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
 
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
 
-**Data & Tools**
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge)
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
-</div>
+
+## Security
+
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux)
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge)
+
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge)
+
+![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp)
+
 
 ---
 
-## 📦 Projects
+# 📦 Projects
 
 | Project | Description | Stack |
-|---------|-------------|-------|
-| 🔍 **VulnScope** | AI-powered web app penetration testing platform | Next.js · FastAPI · Groq · Prisma |
+|---|---|---|
+| 🔍 **VulnScope** | AI-powered web application penetration testing platform | Next.js · FastAPI · Groq · Prisma |
 | 🩺 **MedStudy AI** | RAG-powered chatbot for medical students | LangChain · FAISS · Groq · Streamlit |
-| 🤖 **ML Ensemble Platform** | Voting, Bagging & Boosting models via web UI | Flask · scikit-learn |
-| 🫀 **Patient Risk Stratifier** | GMM clustering + RBF Network — 84% accuracy | Streamlit · scikit-learn · UCI Dataset |
-| 🎮 **DQN Acrobot Agent** | Reinforcement learning agent with fine-tuning | Stable-Baselines3 · Streamlit |
-| 📊 **E-commerce Sales Analytics** | ETL pipeline + window functions + Power BI dashboard | PostgreSQL · APScheduler · Power BI |
+| 🤖 **ML Ensemble Platform** | Voting, Bagging & Boosting models through web UI | Flask · Scikit-learn |
+| 🫀 **Patient Risk Stratifier** | GMM clustering + RBF Network patient risk prediction (84% accuracy) | Streamlit · Scikit-learn · UCI Dataset |
+| 🎮 **DQN Acrobot Agent** | Reinforcement learning agent with optimization and fine-tuning | Stable-Baselines3 · Streamlit |
+| 📊 **E-commerce Sales Analytics** | ETL pipeline + SQL analytics + Power BI dashboard | PostgreSQL · APScheduler · Power BI |
+| 🎬 **Cinema System** | Full-stack movie management system | MERN Stack |
+| 🏠 **Real Estate Platform** | Bilingual business website | React · Tailwind CSS |
+| ☕ **Cafe System** | Management system application | React · Node.js |
 
 ---
 
-## 📊 GitHub Stats
+# 🎓 Certifications & Training
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmed-mohamed-sh&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0d1a"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmed-mohamed-sh&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0d0d1a"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmed-mohamed-sh&theme=midnight-purple&hide_border=true&background=0d0d1a" alt="streak"/>
-
-</div>
+- 🛡️ Fortinet NSE — Security & Networking
+- 🔐 NTI Creativa Cyber Security Track — Penetration Testing & Network Security
+- 🌐 Networking Fundamentals
 
 ---
 
-## 🏆 Certifications & Training
+# 📈 Current Goals
 
-- 🛡️ **Fortinet NSE** — FortiGate Security & Networking (Creativa Tanta)
-- 🔐 **NTI Creativa Cyber Security Track** — Penetration Testing & Network Security
-- 🌐 **Networking Fundamentals** — FLSM/VLSM, SSL/TLS, Security Fabric
-
----
-
-## 📈 Current Goals
-
-- 🔨 Shipping **VulnScope** as a public portfolio piece
-- 🧠 Deepening AI integration in security tooling
-- ⚛️ Mastering advanced React patterns & state management
-- 🔒 Building privacy-first, secure web applications
+- 🚀 Shipping **VulnScope** as a professional security portfolio project
+- 🤖 Building AI-powered cybersecurity tools
+- 🔒 Improving penetration testing skills
+- 🧠 Deepening Machine Learning and Deep Learning knowledge
+- ⚛️ Mastering advanced React / Next.js architecture
 
 ---
 
@@ -154,6 +215,6 @@ class Ahmed:
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
 
-*"The best way to secure a system is to think like the attacker — then build smarter than them."*
+*"Think like an attacker. Build like an engineer. Secure like a defender."*
 
 </div>
