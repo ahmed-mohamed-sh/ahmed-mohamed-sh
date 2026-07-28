@@ -5,15 +5,15 @@
 
 <!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+where+AI+meets+Security;Full-Stack+%2B+Cybersecurity+%2B+ML;CS+Student+%40+HTI+Egypt;Always+shipping%2C+always+learning." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+where+AI+meets+Security;Full-Stack+%2B+Cybersecurity+%2B+ML;CS+%26+AI+Student+%40+Menoufia+National+University;Always+shipping%2C+always+learning." alt="Typing SVG" />
 </a>
 
 <br/>
 
 <!-- Social Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/ahmed-mohamed-sh)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:am6453395@gmail.com)
 
 </div>
 
@@ -24,20 +24,22 @@
 ```python
 class Ahmed:
     role       = "AI Security Engineer (in progress)"
-    university = "HTI — Higher Technological Institute, Egypt"
+    university = "Menoufia National University — CS & Artificial Intelligence"
+    location   = "Egypt"
     interests  = ["Web App Penetration Testing", "AI-powered Security Tools",
-                  "Full-Stack Development", "Machine Learning"]
-    
+                  "Full-Stack Development", "Computer Vision", "Deep Learning"]
+
     stack      = {
-        "frontend"  : ["Next.js", "React", "Tailwind CSS"],
+        "frontend"  : ["Next.js", "React", "Tailwind CSS", "TypeScript"],
         "backend"   : ["Flask", "FastAPI", "Node.js"],
         "ml / ai"   : ["LangChain", "Groq", "FAISS", "Stable-Baselines3"],
         "security"  : ["Burp Suite", "Metasploit", "Kali Linux", "OWASP"],
         "data"      : ["PostgreSQL", "Prisma", "Power BI", "APScheduler"],
     }
-    
+
     currently  = "Building VulnScope — AI-powered web app pentesting platform"
-    
+    workflow   = ["VS Code", "Git", "Homebrew", "Terminal / CLI"]
+
     def motto(self): return "Ship it. Break it. Secure it."
 ```
 
@@ -47,7 +49,7 @@ class Ahmed:
 
 <div align="center">
 
-> **AI-powered web application penetration testing platform**
+> **AI-powered web application penetration testing platform**  
 > Rule-based detection · Exploitation engine · AI chat on reports · Threat intel feeds · PDF report generation
 
 | Stack | Role |
@@ -76,6 +78,7 @@ class Ahmed:
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
@@ -93,11 +96,12 @@ class Ahmed:
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 
-**Data & Cloud**
+**Data & Tools**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
@@ -120,10 +124,10 @@ class Ahmed:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0d1a"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0d0d1a"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmed-mohamed-sh&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d0d1a"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmed-mohamed-sh&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0d0d1a"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=midnight-purple&hide_border=true&background=0d0d1a" alt="streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmed-mohamed-sh&theme=midnight-purple&hide_border=true&background=0d0d1a" alt="streak"/>
 
 </div>
 
@@ -134,6 +138,15 @@ class Ahmed:
 - 🛡️ **Fortinet NSE** — FortiGate Security & Networking (Creativa Tanta)
 - 🔐 **NTI Creativa Cyber Security Track** — Penetration Testing & Network Security
 - 🌐 **Networking Fundamentals** — FLSM/VLSM, SSL/TLS, Security Fabric
+
+---
+
+## 📈 Current Goals
+
+- 🔨 Shipping **VulnScope** as a public portfolio piece
+- 🧠 Deepening AI integration in security tooling
+- ⚛️ Mastering advanced React patterns & state management
+- 🔒 Building privacy-first, secure web applications
 
 ---
 
