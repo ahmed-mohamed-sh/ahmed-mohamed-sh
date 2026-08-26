@@ -1,228 +1,55 @@
-<div align="center">
-
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Ahmed&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=AI%20Security%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20ML%20Enthusiast&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
-
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+where+AI+meets+Security;Full-Stack+%2B+Cybersecurity+%2B+Machine+Learning;CS+%26+AI+Student+%40+Menoufia+National+University;Always+building%2C+always+learning." alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- Social Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/ahmed-mohamed-sh)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:am6453395@gmail.com)
-
-</div>
-
-<br/>
-
 <p align="center">
   <picture>
-    <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-v2-mobile-dark.svg">
-    <source media="(max-width: 767px) and (prefers-color-scheme: light)" srcset="./assets/hero/builder-profile-v2-mobile-light.svg">
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-v2-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/builder-profile-v2-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-v2-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/hero/builder-profile-v2-light.svg">
-    <img src="./assets/hero/builder-profile-v2-dark.svg" alt="Agent Hero Profile" width="100%">
+    <img src="./assets/hero/builder-profile-v2-dark.svg" alt="Ahmed, Full-Stack & AI Security Engineer" width="100%">
   </picture>
 </p>
 
----
+<p align="center">
+  <a href="https://github.com/ahmed-mohamed-sh"><strong>View Portfolio</strong></a>
+</p>
 
-# ⚡ About Me
+## Hey, I'm Ahmed
 
-```python
-class Ahmed:
+I'm a **Full-Stack & AI Security Engineer** based in Egypt. I work across **web application penetration testing, AI-powered security tools, full-stack development, and machine learning**, bridging the gap between innovative engineering and robust security.
 
-    role = "Full-Stack & AI Security Engineer (Building towards it)"
-    university = "Menoufia National University — CS & Artificial Intelligence"
-    location = "Egypt 🇪🇬"
+I enjoy taking projects from an early idea to a working release: defining the architecture, building the core system, identifying vulnerabilities, and securing the final product.
 
-    interests = [
-        "Web Application Penetration Testing",
-        "AI-powered Security Tools",
-        "Full-Stack Development",
-        "Machine Learning",
-        "Data Science"
-    ]
+## What I Build
 
-    stack = {
+- **AI-powered Security Tools:** integrating AI agents (like LangChain and Groq) into security platforms for automated vulnerability detection, analysis, and reporting.
+- **Web App Penetration Testing:** analyzing systems, finding exploits, and securing web applications using industry standards like the OWASP Top 10.
+- **Full-Stack Engineering:** building scalable, performant applications from product direction and interface design to backend systems, APIs, and databases.
+- **Machine Learning & Data Science:** designing clustering algorithms, predictive models, and RAG chatbots to extract insights and automate workflows.
 
-        "frontend": [
-            "Next.js",
-            "React",
-            "Tailwind CSS",
-            "TypeScript",
-            "Framer Motion"
-        ],
+## Selected Work
 
-        "backend": [
-            "Node.js",
-            "Express",
-            "FastAPI",
-            "Flask"
-        ],
+| Project | What I built | My role · Current state |
+| --- | --- | --- |
+| [**VulnScope**](https://github.com/ahmed-mohamed-sh/VulnScope) | AI-powered web application penetration testing platform with rule-based detection, exploitation engine, and AI reporting. | Creator · Lead Developer<br>Active Development |
+| [**MedStudy AI**](https://github.com/ahmed-mohamed-sh/MedStudy-AI) | RAG-powered chatbot designed to assist medical students using FAISS and Groq. | Developer<br>Completed |
+| [**ML Ensemble Platform**](https://github.com/ahmed-mohamed-sh/ML-Ensemble) | Platform for running and evaluating Voting, Bagging, and Boosting models through a clean web UI. | Developer<br>Completed |
+| [**Patient Risk Stratifier**](https://github.com/ahmed-mohamed-sh/Patient-Risk-Stratifier) | GMM clustering and RBF Network system for patient risk prediction achieving 84% accuracy. | Developer<br>Completed |
+| [**E-commerce Sales Analytics**](https://github.com/ahmed-mohamed-sh/E-commerce-Analytics) | End-to-end data platform with an ETL pipeline, PostgreSQL analytics, and a Power BI dashboard. | Data Engineer<br>Completed |
 
-        "ml / ai": [
-            "LangChain",
-            "Groq",
-            "FAISS",
-            "Stable-Baselines3",
-            "Scikit-learn",
-            "NumPy",
-            "Matplotlib"
-        ],
+## Selected Highlights
 
-        "security": [
-            "Burp Suite",
-            "Metasploit",
-            "Kali Linux",
-            "Nmap",
-            "SQLMap",
-            "OWASP Top 10"
-        ],
+- **Fortinet NSE:** Certified in Security & Networking.
+- **NTI Creativa Cyber Security Track:** Specialized training in Penetration Testing & Network Security.
+- **CS & AI Student:** Currently studying Computer Science & Artificial Intelligence at Menoufia National University.
 
-        "data": [
-            "PostgreSQL",
-            "MongoDB",
-            "Prisma",
-            "Neon",
-            "Power BI",
-            "APScheduler"
-        ]
-    }
+## What I'm Exploring
 
+I'm currently focused on shipping VulnScope as a professional security portfolio project, and I'm deeply interested in how AI agents can be utilized to automate complex cybersecurity and penetration testing workflows. 
 
-    currently = "Building VulnScope — AI-powered web application penetration testing platform"
+Research helps me understand the deeper questions in ML and deep learning. Building prototypes and breaking systems is how I test those ideas in practice.
 
-    motto = "Build. Break. Learn. Secure."
-```
+## Tools I Use
 
----
-
-# 🔭 Flagship Project — VulnScope
-
-<div align="center">
-
-> **AI-powered web application penetration testing platform**  
-> Rule-based detection · Exploitation engine · AI chat on reports · Threat intel feeds · PDF report generation
-
-</div>
-
-## Architecture
-
-| Technology | Role |
-|---|---|
-| `Next.js` `FastAPI` `Prisma/Neon` | Full-Stack Architecture |
-| `Groq Llama 3.3 70B` `LangChain` | AI Security Assistant |
-| `NextAuth v5` | Authentication & Security |
-| `OWASP Top 10` | Vulnerability Detection Engine |
-| `YAML Rules Engine` | Rule-Based Scanning System |
-
-### Main Features
-
-- 🔎 Automated vulnerability scanning
-- 🛡️ OWASP Top 10 detection
-- ⚔️ Exploitation engine
-- 🤖 AI chat assistant for reports
-- 📄 PDF security reports
-- 🔄 Scan comparison
-- 📊 Security score calculation
-- 🌐 Threat intelligence integration
-
----
-
-# 🛠️ Tech Stack
-
-## Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-
-## Frontend
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-
-## Backend
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-
-## AI / ML
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
-
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
-
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge)
-
-![Scikit Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-
-
-## Security
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux)
-
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge)
-
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge)
-
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp)
-
-
----
-
-# 📦 Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| 🔍 **VulnScope** | AI-powered web application penetration testing platform | Next.js · FastAPI · Groq · Prisma |
-| 🩺 **MedStudy AI** | RAG-powered chatbot for medical students | LangChain · FAISS · Groq · Streamlit |
-| 🤖 **ML Ensemble Platform** | Voting, Bagging & Boosting models through web UI | Flask · Scikit-learn |
-| 🫀 **Patient Risk Stratifier** | GMM clustering + RBF Network patient risk prediction (84% accuracy) | Streamlit · Scikit-learn · UCI Dataset |
-| 🎮 **DQN Acrobot Agent** | Reinforcement learning agent with optimization and fine-tuning | Stable-Baselines3 · Streamlit |
-| 📊 **E-commerce Sales Analytics** | ETL pipeline + SQL analytics + Power BI dashboard | PostgreSQL · APScheduler · Power BI |
-| 🎬 **Cinema System** | Full-stack movie management system | MERN Stack |
-| 🏠 **Real Estate Platform** | Bilingual business website | React · Tailwind CSS |
-| ☕ **Cafe System** | Management system application | React · Node.js |
-
----
-
-# 🎓 Certifications & Training
-
-- 🛡️ Fortinet NSE — Security & Networking
-- 🔐 NTI Creativa Cyber Security Track — Penetration Testing & Network Security
-- 🌐 Networking Fundamentals
-- check my Linkedin for more
-
----
-
-# 📈 Current Goals
-
-- 🚀 Shipping **VulnScope** as a professional security portfolio project
-- 🤖 Building AI-powered cybersecurity tools
-- 🔒 Improving penetration testing skills
-- 🧠 Deepening Machine Learning and Deep Learning knowledge
-- ⚛️ Mastering advanced React / Next.js architecture
-
----
+`Python` · `TypeScript` · `JavaScript` · `SQL` · `Next.js` · `React` · `Node.js` · `FastAPI` · `LangChain` · `Groq` · `Scikit-learn` · `Kali Linux` · `Burp Suite` · `PostgreSQL`
 
 ## Contribution Trail
 
@@ -245,8 +72,6 @@ class Ahmed:
 
 ---
 
-<div align="center">
-
-*"Think like an attacker. Build like an engineer. Secure like a defender."*
-
-</div>
+<p align="center">
+  <em>Think like an attacker. Build like an engineer. Secure like a defender.</em>
+</p>
