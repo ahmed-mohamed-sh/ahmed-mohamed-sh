@@ -12,7 +12,7 @@ const outputDirectory = resolve(scriptDirectory, "../assets/hero");
 const featuredProjectsPath = resolve(scriptDirectory, "../data/featured-projects.json");
 
 const portraitFilter = [
-  "crop=1700:1900:800:1950",
+  "crop=800:894:0:220",
   "format=gray",
   "eq=contrast=1.18:brightness=0.04:gamma=0.96",
   "unsharp=3:3:0.35"
@@ -20,21 +20,23 @@ const portraitFilter = [
 
 function buildProfileLines(projects) {
   const shortNames = {
-    "Nova AI Wallet": "Nova AI"
+    "Patient Risk Stratifier": "Risk Stratifier",
+    "E-commerce Sales Analytics": "Sales Analytics",
+    "ML Ensemble Platform": "ML Platform"
   };
 
   return [
-    { type: "header", value: "wildan@build" },
-    { type: "row", key: "Name", value: "Wildan Syukri Niam" },
-    { type: "row", key: "Role", value: "Full-Stack Builder" },
-    { type: "row", key: "Based", value: "Bandung, Indonesia" },
-    { type: "row", key: "Mode", value: "Designing / Building / Shipping" },
+    { type: "header", value: "ahmed@security" },
+    { type: "row", key: "Name", value: "Ahmed Mohamed" },
+    { type: "row", key: "Role", value: "Full-Stack & AI Security" },
+    { type: "row", key: "Based", value: "Egypt" },
+    { type: "row", key: "Mode", value: "Building / Breaking / Securing" },
     { type: "blank" },
-    { type: "section", value: "BUILD.FOCUS" },
-    { type: "row", key: "Product", value: "Idea to working release" },
-    { type: "row", key: "AI", value: "Agents and tool use" },
-    { type: "row", key: "Web3", value: "Smart contracts and payments" },
-    { type: "row", key: "Quality", value: "Testing and reliability" },
+    { type: "section", value: "CORE.FOCUS" },
+    { type: "row", key: "Security", value: "Web App PenTesting" },
+    { type: "row", key: "AI", value: "AI-powered Security Tools" },
+    { type: "row", key: "FullStack", value: "Next.js & Node.js/FastAPI Apps" },
+    { type: "row", key: "ML", value: "Machine Learning & RAG" },
     { type: "blank" },
     { type: "section", value: "SELECTED.WORK" },
     ...projects.map((project) => ({
@@ -43,7 +45,7 @@ function buildProfileLines(projects) {
       value: project.focus
     })),
     { type: "blank" },
-    { type: "footer", value: "FROM IDEA TO WORKING PRODUCT" }
+    { type: "footer", value: "BUILD. BREAK. LEARN. SECURE." }
   ];
 }
 
@@ -343,16 +345,16 @@ function createHeroSvg(mode, size, portrait, profileLines) {
 <circle cx="${titlebar.x + 21}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="${colors.cyan}" opacity="0.88"/>
 <circle cx="${titlebar.x + 39}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="${colors.violet}" opacity="0.7"/>
 <circle cx="${titlebar.x + 57}" cy="${titlebar.y + titlebar.height / 2}" r="5" fill="${colors.green}" opacity="0.78"/>
-<text x="${titleCenter}" y="${titlebar.y + titlebar.height / 2 + 5}" text-anchor="middle" class="terminal-label">wildan@build ~ % ./profile</text>
+<text x="${titleCenter}" y="${titlebar.y + titlebar.height / 2 + 5}" text-anchor="middle" class="terminal-label">ahmed@build-security ~ % ./profile</text>
 ${isDesktop ? `<circle cx="${liveX}" cy="${titlebar.y + titlebar.height / 2}" r="4" fill="${colors.red}"/><text x="${liveX + 10}" y="${titlebar.y + titlebar.height / 2 + 4}" class="live-label">BUILDING</text>` : ""}
 <rect x="${visual.x}" y="${visual.y}" width="${visual.width}" height="${visual.height}" rx="${visual.radius}" fill="${colors.panel}" fill-opacity="0.38" stroke="url(#border)" stroke-opacity="0.42"/>
 <rect x="${info.x}" y="${info.y}" width="${info.width}" height="${info.height}" rx="${info.radius}" fill="${colors.panel}" fill-opacity="0.42" stroke="url(#border)" stroke-opacity="0.42"/>
-<text x="${layout.visualTitle.x}" y="${layout.visualTitle.y}" class="panel-title">PORTRAIT / WILDAN</text>
-<text x="${layout.infoTitle.x}" y="${layout.infoTitle.y}" class="panel-title">PROFILE / BUILDER</text>
+<text x="${layout.visualTitle.x}" y="${layout.visualTitle.y}" class="panel-title">PORTRAIT / AHMED</text>
+<text x="${layout.infoTitle.x}" y="${layout.infoTitle.y}" class="panel-title">PROFILE / ENGINEER</text>
 ${ambientPortrait}
 <g clip-path="url(#portrait-clip)"><text class="ascii" fill="${colors.cyan}" font-family="'Courier New', Consolas, monospace" font-size="${layout.portrait.fontSize}px" letter-spacing="-0.15px">${ascii}</text></g>
 ${system}
-<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">PRODUCT ENGINEERING / AI AGENTS / WEB3 / DEVELOPER TOOLS</text>
+<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">WEB3 / CYBERSECURITY / AI AGENTS / DEVELOP TOOLS</text>
 <rect class="motion-scan" x="0" y="-70" width="${layout.width}" height="70" fill="url(#scan)" opacity="0.42" style="mix-blend-mode:${colors.scanBlend}"/>
 <rect x="3" y="3" width="${layout.width - 6}" height="${layout.height - 6}" rx="${layout.outerRadius - 2}" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.76"/>
 </svg>`;
@@ -374,8 +376,8 @@ async function main() {
   const checkOnly = process.argv.includes("--check");
   const projects = JSON.parse(await readFile(featuredProjectsPath, "utf8"));
 
-  if (!Array.isArray(projects) || projects.length !== 5) {
-    throw new Error("Featured project data must contain exactly five projects.");
+  if (!Array.isArray(projects) || projects.length < 1 || projects.length > 6) {
+    throw new Error("Featured project data must contain between 1 and 6 projects.");
   }
 
   const seenRepos = new Set();

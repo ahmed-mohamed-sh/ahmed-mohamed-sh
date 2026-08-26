@@ -1,64 +1,224 @@
-<p align="center">
-  <picture>
-    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-v2-mobile-dark.svg">
-    <source media="(max-width: 760px)" srcset="./assets/hero/builder-profile-v2-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/builder-profile-v2-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/builder-profile-v2-light.svg">
-    <img src="./assets/hero/builder-profile-v2-dark.svg" alt="Wildan Syukri Niam, full-stack product builder" width="100%">
-  </picture>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://wildan-portfolio-six.vercel.app"><strong>View Portfolio</strong></a>
-</p>
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Ahmed&fontSize=80&fontColor=ffffff&fontAlignY=35&desc=AI%20Security%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20ML%20Enthusiast&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
-## Hey, I'm Wildan
+<!-- Typing Animation -->
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+where+AI+meets+Security;Full-Stack+%2B+Cybersecurity+%2B+Machine+Learning;CS+%26+AI+Student+%40+Menoufia+National+University;Always+building%2C+always+learning." alt="Typing SVG" />
+</a>
 
-I'm a **full-stack builder** based in Bandung, Indonesia. I work across **AI agents, Web3, and developer tools**, shaping products, leading teams, and building the software behind them.
+<br/>
 
-I enjoy taking projects from an early idea to a working release: defining the product, building the core system, testing the final flow, and often coordinating the team along the way.
+<!-- Social Badges -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/ahmed-mohamed-sh)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:am6453395@gmail.com)
 
-## What I Build
+</div>
 
-- **Product & full-stack engineering:** from product direction and interface design to backend systems, integrations, deployment, and QA.
-- **AI products:** tool-using agents, purpose-built interfaces, and workflows that keep people in control.
-- **Web3 applications:** wallet intelligence, API payments, smart contracts, and on-chain product flows.
-- **Developer tools:** testing, reliability, and AI-assisted engineering workflows.
+---
 
-## Selected Work
+# ⚡ About Me
 
-| Project | What I built | My role · Current state |
-| --- | --- | --- |
-| [**Fradium**](https://github.com/fradiumofficial/fradium) · [Live beta](https://fradium.io) | Surfaces address risk before a user sends funds by combining AI output with community signals. | Team Lead · Full-Stack Developer<br>Public Beta |
-| [**PayGate**](https://github.com/wildanniam/paygate-stellar) · [Testnet beta](https://trypaygate.com) | Lets machine clients pay for individual API requests through HTTP 402 and Stellar testnet. | Founder · Builder<br>Stellar Testnet Beta |
-| [**Nova AI Wallet**](https://github.com/OfficialNovaAI/nova-wallet) · [Public prototype](https://nova-wallet-puce.vercel.app) | Turns wallet intent into clear actions while the connected wallet keeps final signing. | Team Lead · AI Engineer<br>Public Prototype · Degraded |
-| [**SpecHeal**](https://github.com/antech2-async/SpecHeal) | Helps teams distinguish safe selector recovery from real product bugs before applying a controlled repair. | Team Lead · Full-Stack & Product Developer<br>Hackathon Prototype · Offline |
-| [**Quorum**](https://github.com/wildanniam/Quorum) · [Testnet build](https://quorum-sandy-eight.vercel.app) | Connects event checkout, collaborator splits, wallet-bound passes, gated resources, and withdrawals. | Team Lead · Full-Stack & Smart Contract Engineer<br>Active Stellar Testnet Build |
+```python
+class Ahmed:
 
-## Selected Highlights
+    role = "Full-Stack & AI Security Engineer (Building towards it)"
+    university = "Menoufia National University — CS & Artificial Intelligence"
+    location = "Egypt 🇪🇬"
 
-- **Fradium team:** winner of the [WCHL 2025 Global Finale Fully On-Chain Track](https://bse.telkomuniversity.ac.id/tim-fradium-berhasil-meraih-global-finale-winner-fully-on-chain-track-pada-world-computer-hacker-league-2025/).
-- **PayGate:** awarded a [$5,000 Stellar Community Fund Instaward](https://x.com/Indo_Stellar/status/2075550378553421994).
-- **Nova AI team:** 1st notable mention and 1st Social Media Challenge winner at the [SEA Lisk Builder Challenge 3](https://bse.telkomuniversity.ac.id/prestasi-tim-nova-ai-di-south-east-asia-lisk-builder-challenge-3/).
-- **SpecHeal team:** [2nd place at Refactory Hackathon 2026](https://portofolio-wildan-zeta.vercel.app/).
+    interests = [
+        "Web Application Penetration Testing",
+        "AI-powered Security Tools",
+        "Full-Stack Development",
+        "Machine Learning",
+        "Data Science"
+    ]
 
-## What I'm Exploring
+    stack = {
 
-I'm interested in AI agents that can work with real tools, software, and financial systems, not only generate text.
+        "frontend": [
+            "Next.js",
+            "React",
+            "Tailwind CSS",
+            "TypeScript",
+            "Framer Motion"
+        ],
 
-Research helps me understand the deeper questions. Building prototypes and products is how I test those ideas in practice.
+        "backend": [
+            "Node.js",
+            "Express",
+            "FastAPI",
+            "Flask"
+        ],
 
-## Tools I Use
+        "ml / ai": [
+            "LangChain",
+            "Groq",
+            "FAISS",
+            "Stable-Baselines3",
+            "Scikit-learn",
+            "NumPy",
+            "Matplotlib"
+        ],
 
-`TypeScript` · `Next.js` · `React` · `Node.js` · `Python` · `Rust` · `Motoko` · `PostgreSQL` · `Playwright` · `Stellar` · `Internet Computer`
+        "security": [
+            "Burp Suite",
+            "Metasploit",
+            "Kali Linux",
+            "Nmap",
+            "SQLMap",
+            "OWASP Top 10"
+        ],
+
+        "data": [
+            "PostgreSQL",
+            "MongoDB",
+            "Prisma",
+            "Neon",
+            "Power BI",
+            "APScheduler"
+        ]
+    }
+
+
+    currently = "Building VulnScope — AI-powered web application penetration testing platform"
+
+    motto = "Build. Break. Learn. Secure."
+```
+
+---
+
+# 🔭 Flagship Project — VulnScope
+
+<div align="center">
+
+> **AI-powered web application penetration testing platform**  
+> Rule-based detection · Exploitation engine · AI chat on reports · Threat intel feeds · PDF report generation
+
+</div>
+
+## Architecture
+
+| Technology | Role |
+|---|---|
+| `Next.js` `FastAPI` `Prisma/Neon` | Full-Stack Architecture |
+| `Groq Llama 3.3 70B` `LangChain` | AI Security Assistant |
+| `NextAuth v5` | Authentication & Security |
+| `OWASP Top 10` | Vulnerability Detection Engine |
+| `YAML Rules Engine` | Rule-Based Scanning System |
+
+### Main Features
+
+- 🔎 Automated vulnerability scanning
+- 🛡️ OWASP Top 10 detection
+- ⚔️ Exploitation engine
+- 🤖 AI chat assistant for reports
+- 📄 PDF security reports
+- 🔄 Scan comparison
+- 📊 Security score calculation
+- 🌐 Threat intelligence integration
+
+---
+
+# 🛠️ Tech Stack
+
+## Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+
+## Frontend
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+
+## Backend
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+
+## AI / ML
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
+
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
+
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge)
+
+![Scikit Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+
+## Security
+
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux)
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge)
+
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge)
+
+![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp)
+
+
+---
+
+# 📦 Projects
+
+| Project | Description | Stack |
+|---|---|---|
+| 🔍 **VulnScope** | AI-powered web application penetration testing platform | Next.js · FastAPI · Groq · Prisma |
+| 🩺 **MedStudy AI** | RAG-powered chatbot for medical students | LangChain · FAISS · Groq · Streamlit |
+| 🤖 **ML Ensemble Platform** | Voting, Bagging & Boosting models through web UI | Flask · Scikit-learn |
+| 🫀 **Patient Risk Stratifier** | GMM clustering + RBF Network patient risk prediction (84% accuracy) | Streamlit · Scikit-learn · UCI Dataset |
+| 🎮 **DQN Acrobot Agent** | Reinforcement learning agent with optimization and fine-tuning | Stable-Baselines3 · Streamlit |
+| 📊 **E-commerce Sales Analytics** | ETL pipeline + SQL analytics + Power BI dashboard | PostgreSQL · APScheduler · Power BI |
+| 🎬 **Cinema System** | Full-stack movie management system | MERN Stack |
+| 🏠 **Real Estate Platform** | Bilingual business website | React · Tailwind CSS |
+| ☕ **Cafe System** | Management system application | React · Node.js |
+
+---
+
+# 🎓 Certifications & Training
+
+- 🛡️ Fortinet NSE — Security & Networking
+- 🔐 NTI Creativa Cyber Security Track — Penetration Testing & Network Security
+- 🌐 Networking Fundamentals
+- check my Linkedin for more
+
+---
+
+# 📈 Current Goals
+
+- 🚀 Shipping **VulnScope** as a professional security portfolio project
+- 🤖 Building AI-powered cybersecurity tools
+- 🔒 Improving penetration testing skills
+- 🧠 Deepening Machine Learning and Deep Learning knowledge
+- ⚛️ Mastering advanced React / Next.js architecture
+
+---
 
 ## Contribution Trail
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wildanniam/wildanniam/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wildanniam/wildanniam/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/wildanniam/wildanniam/output/github-contribution-grid-snake.svg" alt="Animated snake moving through Wildan's GitHub contribution graph" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmed-mohamed-sh/ahmed-mohamed-sh/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmed-mohamed-sh/ahmed-mohamed-sh/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/ahmed-mohamed-sh/ahmed-mohamed-sh/output/github-contribution-grid-snake.svg" alt="Animated snake moving through Ahmed's GitHub contribution graph" width="100%">
   </picture>
 </p>
 
@@ -67,18 +227,14 @@ Research helps me understand the deeper questions. Building prototypes and produ
 <br>
 
 <!-- AUTO:ACTIVITY:START -->
-- Aug 20, 2026: pushed 1 commit to [wildanniam/koderea](https://github.com/wildanniam/koderea).
-- Aug 19, 2026: pushed 1 commit to [wildanniam/koderea](https://github.com/wildanniam/koderea).
-- Aug 19, 2026: merged pull request [#11](https://github.com/wildanniam/koderea/pull/11) in [wildanniam/koderea](https://github.com/wildanniam/koderea).
-- Aug 19, 2026: closed issue [#12](https://github.com/wildanniam/koderea/issues/12) in [wildanniam/koderea](https://github.com/wildanniam/koderea).
-- Aug 19, 2026: closed issue [#10](https://github.com/wildanniam/koderea/issues/10) in [wildanniam/koderea](https://github.com/wildanniam/koderea).
-- Aug 19, 2026: opened issue [#12](https://github.com/wildanniam/koderea/issues/12) in [wildanniam/koderea](https://github.com/wildanniam/koderea).
 <!-- AUTO:ACTIVITY:END -->
 
 </details>
 
 ---
 
-<p align="center">
-  Building useful products around AI, Web3, and developer tools.
-</p>
+<div align="center">
+
+*"Think like an attacker. Build like an engineer. Secure like a defender."*
+
+</div>
