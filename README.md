@@ -66,12 +66,12 @@ Research helps me understand the deeper questions in ML and deep learning. Build
 <br>
 
 <!-- AUTO:ACTIVITY:START -->
-- Nov 11, 2026: created a branch in [jamesmurdza/background-agents](https://github.com/jamesmurdza/background-agents).
-- Nov 11, 2026: opened pull request [#603](https://github.com/jamesmurdza/background-agents/pull/603) in [jamesmurdza/background-agents](https://github.com/jamesmurdza/background-agents).
-- Nov 11, 2026: merged pull request [#600](https://github.com/jamesmurdza/background-agents/pull/600) in [jamesmurdza/background-agents](https://github.com/jamesmurdza/background-agents).
-- Nov 11, 2026: opened pull request [#600](https://github.com/jamesmurdza/background-agents/pull/600) in [jamesmurdza/background-agents](https://github.com/jamesmurdza/background-agents).
-- Nov 9, 2026: pushed 1 commit to [jamesmurdza/background-agents](https://github.com/jamesmurdza/background-agents).
-- Nov 10, 2026: opened issue [#595](https://github.com/jamesmurdza/background-agents/issues/595) in [jamesmurdza/background-agents](https://github.com/jamesmurdza/background-agents).
+- Nov 14, 2026: merged pull request [#13](https://github.com/wildanniam/SWARA-NASA/pull/13) in [wildanniam/SWARA-NASA](https://github.com/wildanniam/SWARA-NASA).
+- Nov 14, 2026: opened pull request [#13](https://github.com/wildanniam/SWARA-NASA/pull/13) in [wildanniam/SWARA-NASA](https://github.com/wildanniam/SWARA-NASA).
+- Nov 14, 2026: merged pull request [#12](https://github.com/wildanniam/SWARA-NASA/pull/12) in [wildanniam/SWARA-NASA](https://github.com/wildanniam/SWARA-NASA).
+- Nov 14, 2026: opened pull request [#12](https://github.com/wildanniam/SWARA-NASA/pull/12) in [wildanniam/SWARA-NASA](https://github.com/wildanniam/SWARA-NASA).
+- Nov 14, 2026: merged pull request [#11](https://github.com/wildanniam/SWARA-NASA/pull/11) in [wildanniam/SWARA-NASA](https://github.com/wildanniam/SWARA-NASA).
+- Nov 14, 2026: opened pull request [#11](https://github.com/wildanniam/SWARA-NASA/pull/11) in [wildanniam/SWARA-NASA](https://github.com/wildanniam/SWARA-NASA).
 <!-- AUTO:ACTIVITY:END -->
 
 </details>
